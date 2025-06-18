@@ -122,5 +122,3 @@ class OrderViewSet(viewsets.ModelViewSet):
             return OrderListSerializer
         else:
             return OrderSerializer
-
-
